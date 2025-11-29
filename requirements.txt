@@ -5,3 +5,5 @@ openai
 stripe
 requests
 python-dotenv
+vercel_wsgi
+vercel-python

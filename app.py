@@ -739,7 +739,6 @@ def api_generate_proposal_info():
 # ====================
 
 # For Vercel deployment
-def handler(request):
-    with app.app_context():
-        return app(request)
+from vercel_wsgi import make_handler
+handler = make_handler(app)
 

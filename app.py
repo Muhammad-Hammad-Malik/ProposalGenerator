@@ -743,10 +743,3 @@ def handler(request):
     with app.app_context():
         return app(request)
 
-# ====================
-# LOCAL TESTING
-# ====================
-
-if __name__ == "__main__":
-    # Local development server
-    app.run(debug=True, host='0.0.0.0', port=5000)

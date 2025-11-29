@@ -1,0 +1,7 @@
+flask
+flask-cors
+python-pptx
+openai
+stripe
+requests
+python-dotenv
